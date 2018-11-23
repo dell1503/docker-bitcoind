@@ -1,5 +1,6 @@
 ** Note for me **
 
+docker start bitcoind-node
 docker run -v D:\ln\btcdir:/bitcoin --name=bitcoind-node -d -p 8333:8333 kylemanna/bitcoind
 docker logs -f bitcoind-node
 alias bitcoin-cli=docker exec -it 5e2c102624e0 bitcoin-cli $*
