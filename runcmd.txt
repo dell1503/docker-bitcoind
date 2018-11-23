@@ -1,0 +1,1 @@
+docker run -v D:\ln\btcdir:/bitcoin --name=bitcoind-node -d -p 8333:8333 kylemanna/bitcoind
